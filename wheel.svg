@@ -1,0 +1,36 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="50%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <circle cx="128" cy="128" r="120" fill="#020617"/>
+  <circle cx="128" cy="128" r="110" fill="#0f172a"/>
+  <circle cx="128" cy="128" r="104" fill="url(#ring)"/>
+  <circle cx="128" cy="128" r="80" fill="#020617"/>
+
+  <!-- 7 ช่อง -->
+  <g stroke="#020617" stroke-width="2">
+    <path d="M128 128L128 32" stroke="#0f172a"/>
+    <path d="M128 128L203 55" />
+    <path d="M128 128L235 128" />
+    <path d="M128 128L203 201" />
+    <path d="M128 128L128 224" />
+    <path d="M128 128L53 201" />
+    <path d="M128 128L21 128" />
+    <path d="M128 128L53 55" />
+  </g>
+
+  <!-- label เล็กๆ -->
+  <text x="128" y="52" text-anchor="middle" fill="#f9fafb" font-size="10">+ คะแนน</text>
+  <text x="190" y="78" text-anchor="middle" fill="#f9fafb" font-size="10">- คะแนน</text>
+  <text x="215" y="135" text-anchor="middle" fill="#f9fafb" font-size="10">สลับล่าง</text>
+  <text x="190" y="200" text-anchor="middle" fill="#f9fafb" font-size="10">สลับบน</text>
+  <text x="128" y="214" text-anchor="middle" fill="#f9fafb" font-size="10">x2</text>
+  <text x="66" y="200" text-anchor="middle" fill="#f9fafb" font-size="10">สตั้น</text>
+  <text x="41" y="135" text-anchor="middle" fill="#f9fafb" font-size="10">โค้งสุดท้าย</text>
+
+  <circle cx="128" cy="128" r="12" fill="#facc15" stroke="#fef9c3" stroke-width="3"/>
+</svg>
